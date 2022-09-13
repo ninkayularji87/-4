@@ -33,5 +33,5 @@ Random b = new Random();
 for (int i=0; i<8; i++)
 {
     a[i] = b.Next();
-    Console.WriteLine(a[i]+" ");
+    Console.Write(a[i]+" ");
 }
